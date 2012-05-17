@@ -24,7 +24,7 @@
         <glossentry>
             <glossterm>API</glossterm>
             <glossdef>
-                <para>Application Programming Interface. An API allows
+                <para>Application Programming Interface. Enables
                     programmers to create application services by
                     using an open application.</para>
             </glossdef>
@@ -424,11 +424,9 @@
             <glossterm>image</glossterm>
             <glossdef>
                 <para>A collection of files for a specific operating
-                    system (OS) image that are used to create or
+                    system (OS) image that you use to create or
                     rebuild a server. Rackspace provides pre-built
-                    images. You can create custom images for backup or
-                    to produce “gold” server images to deploy to a
-                    particular server configuration. </para>
+                    images and you can create custom images. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -445,8 +443,8 @@
         <glossentry>
             <glossterm>ISP</glossterm>
             <glossdef>
-                <para>Internet Service Provider. Any business that
-                    provides Internet access to individuals or
+                <para>Internet Service Provider. A provider of
+                    Internet access to individuals and
                     businesses.</para>
             </glossdef>
         </glossentry>
@@ -466,13 +464,13 @@
             <glossdef>
                 <para>An object-oriented programming language designed
                     for use in the distributed environment of the
-                    Internet. Java can be used to create complete
-                    applications that can run on a single computer or
-                    be distributed among servers and clients in a
-                    network. It can also be used to build a small
-                    application module or applet for use as part of a
-                    web page. Applets make it possible for a web page
-                    user to interact with the page.</para>
+                    Internet. Use Java to create complete applications
+                    that can run on a single computer or are
+                    distributed across servers and clients in a
+                    network. Or, use Java to build a small application
+                    module or applet for use as part of a web page.
+                    Applets allow users to interact with the web
+                    page.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -505,10 +503,9 @@
         <glossentry>
             <glossterm>load balancer</glossterm>
             <glossdef>
-                <para>A logical device which belongs to a cloud
-                    account. It is used to distribute workloads
-                    between multiple back-end systems or services,
-                    based on the criteria defined as part of its
+                <para>A logical device that belongs to a cloud
+                    account. It distributes workloads among multiple
+                    back-end systems or services, based on its
                     configuration. </para>
             </glossdef>
         </glossentry>
@@ -535,7 +532,7 @@
         <glossentry>
             <glossterm>node</glossterm>
             <glossdef>
-                <para>A back-end device providing a service on a
+                <para>A back-end device that provides a service on a
                     specified IP and port.</para>
             </glossdef>
         </glossentry>
@@ -572,9 +569,12 @@
         <glossentry>
             <glossterm>Rackspace Cloud DNS</glossterm>
             <glossdef>
-                <para>A Domain Name System (DNS) available to Rackspace Cloud customers.
-                    Interactions with Rackspace Cloud DNS occur programmatically via the Rackspace
-                    Cloud DNS API as described in this Cloud DNS Developer Guide.</para>
+                <para>A DNS (Domain Name System) available to
+                    Rackspace Cloud customers. Interactions with
+                    Rackspace Cloud DNS occur programmatically through
+                    the Rackspace Cloud DNS API as described in the
+                        <citetitle>Cloud DNS Developer
+                        Guide</citetitle>.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -641,10 +641,10 @@
             <glossdef>
                 <para>Computer that provides explicit services to the
                     client software running on that system, often
-                    managing a variety of computer operations.</para>
-                <para>A server is a virtual machine instance in the
-                    Cloud Servers system. Flavor and image are
-                    requisite elements when creating a server. </para>
+                    managing a variety of computer operations. A
+                    server is a virtual machine instance in the Cloud
+                    Servers system. To create a server, you must
+                    specify a name, flavor, and image. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -658,37 +658,36 @@
         <glossentry>
             <glossterm>shared IP address</glossterm>
             <glossdef>
-                <para>Public IP addresses can be shared across
+                <para>A public IP address that can be shared across
                     multiple servers for use in various high
                     availability scenarios. When an IP address is
                     shared to another server, the cloud network
                     restrictions are modified to allow each server to
-                    listen to and respond on that IP address (you may
-                    optionally specify that the target server network
-                    configuration be modified). Shared IP addresses
-                    can be used with many standard heartbeat
-                    facilities (e.g. keepalived) that monitor for
+                    listen to and respond on that IP address.
+                    Optionally, you can specify that the target server
+                    network configuration be modified. You can use
+                    shared IP addresses with many standard heartbeat
+                    facilities, such as keepalived, that monitor for
                     failure and manage IP failover. </para>
             </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>shared IP group</glossterm>
             <glossdef>
-                <para>A shared IP group is a collection of servers
-                    that can share IPs with other members of the
-                    group. Any server in a group can share one or more
-                    public IPs with any other server in the group.
-                    With the exception of the first server in a shared
-                    IP group, servers must be launched into shared IP
-                    groups. A server may only be a member of one
-                    shared IP group. </para>
+                <para>A collection of servers that can share IPs with
+                    other members of the group. Any server in a group
+                    can share one or more public IPs with any other
+                    server in the group. With the exception of the
+                    first server in a shared IP group, servers must be
+                    launched into shared IP groups. A server may only
+                    be a member of one shared IP group. </para>
             </glossdef>
         </glossentry>
         
         <glossentry>
             <glossterm>social networking</glossterm>
             <glossdef>
-                <para>Joining groups and websites where you will find
+                <para>Joining groups and websites where you find
                     people with similar interests. Individuals and
                     businesses use social networks such as Facebook,
                     LinkedIn, and Twitter to share online experiences
