@@ -1,23 +1,25 @@
-<glossary xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="rs_glossary" version="5.0" role="auto">
+<glossary xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="rs_glossary"
+    version="5.0" role="auto">
     <title>Glossary</title>
     <info>
-      <legalnotice>
-          <para>
-              Licensed under the Apache License, Version 2.0 (the "License");
-              you may not use this file except in compliance with the License.
-              You may obtain a copy of the License at
-	  </para>
-	  <para>
-	    <link xlink:href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</link>
-	  </para>
-	  <para>
-              Unless required by applicable law or agreed to in writing, software
-              distributed under the License is distributed on an "AS IS" BASIS,
-              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-              See the License for the specific language governing permissions and
-              limitations under the License.
-	  </para>
-      </legalnotice>
+        <legalnotice>
+            <para>Licensed under the Apache License, Version 2.0 (the
+                "License"); you may not use this file except in
+                compliance with the License. You may obtain a copy of
+                the License at </para>
+            <para>
+                <link
+                    xlink:href="http://www.apache.org/licenses/LICENSE-2.0"
+                    >http://www.apache.org/licenses/LICENSE-2.0</link>
+            </para>
+            <para>Unless required by applicable law or agreed to in
+                writing, software distributed under the License is
+                distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+                CONDITIONS OF ANY KIND, either express or implied. See
+                the License for the specific language governing
+                permissions and limitations under the License. </para>
+        </legalnotice>
     </info>
     <glossdiv>
         <title>A</title>
@@ -46,8 +48,8 @@
         <glossentry>
             <glossterm>application server</glossterm>
             <glossdef>
-                <para>A piece of software that makes available another piece of software over a
-                        network.</para>
+                <para>A piece of software that makes available another
+                    piece of software over a network.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -92,24 +94,26 @@
             <glossterm>binary</glossterm>
             <glossdef>
                 <para>A base 2 numbering scheme in which there are
-                    only two possible values for each digit: 0 and 1. </para>
+                    only two possible values for each digit: 0 and 1.
+                </para>
             </glossdef>
         </glossentry>
-            <glossentry>
-                <glossterm>bit</glossterm>
-                <glossdef>
-                    <para>A contraction of the term <emphasis
+        <glossentry>
+            <glossterm>bit</glossterm>
+            <glossdef>
+                <para>A contraction of the term <emphasis
                         role="italic">binary digit</emphasis>, a bit
                     is an individual 1 or 0 in the binary numbering
                     system. Bandwidth usage is measured in
                     bits-per-second.</para>
-                </glossdef>
-            </glossentry>
+            </glossdef>
+        </glossentry>
         <glossentry>
             <glossterm>bit torrent</glossterm>
             <glossdef>
-                <para>A peer-to-peer system that legally shares files such as legal software
-                    updates, movies and other resources.</para>
+                <para>A peer-to-peer system that legally shares files
+                    such as legal software updates, movies and other
+                    resources.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -137,11 +141,11 @@
             </glossdef>
         </glossentry>
         <glossentry>
-                <glossterm>byte</glossterm>
-                <glossdef>
-                    <para>A unit of data that is eight bits long. </para>
-                </glossdef>
-            </glossentry>
+            <glossterm>byte</glossterm>
+            <glossdef>
+                <para>A unit of data that is eight bits long. </para>
+            </glossdef>
+        </glossentry>
         <glossentry>
             <glossterm/>
             <glossdef>
@@ -153,33 +157,35 @@
     <glossdiv>
         <title>C</title>
         <glossentry>
-                <glossterm>Certificate Authority</glossterm>
-                <glossdef>
-                    <para>Issuer of online security certificates that
+            <glossterm>Certificate Authority</glossterm>
+            <glossdef>
+                <para>Issuer of online security certificates that
                     shows if a web site is verified as safe.</para>
-                </glossdef>
-            </glossentry>
+            </glossdef>
+        </glossentry>
         <glossentry>
             <glossterm>cloud computing</glossterm>
             <glossdef>
-                <para>Cloud computing is a set of pooled computing resources delivered over the
-                    Internet.</para>
+                <para>Cloud computing is a set of pooled computing
+                    resources delivered over the Internet.</para>
             </glossdef>
         </glossentry>
-            <glossentry>
-                <glossterm>cloudware</glossterm>
-                <glossdef>
-                    <para>Software that exists only on the Internet.
-                    No material product resides on your computer or
+        <glossentry>
+            <glossterm>cloudware</glossterm>
+            <glossdef>
+                <para>Software that exists only on the Internet. No
+                    material product resides on your computer or
                     disks.</para>
-                </glossdef>
-            </glossentry>
+            </glossdef>
+        </glossentry>
         <glossentry>
             <glossterm>connection logging</glossterm>
             <glossdef>
-                <para>The connection logging feature allows logs to be delivered to a Cloud Files
-                    account every hour. For HTTP-based protocol traffic, these are Apache-style access
-                    logs. For all other traffic, this is  connection and transfer logging.</para>
+                <para>The connection logging feature allows logs to be
+                    delivered to a Cloud Files account every hour. For
+                    HTTP-based protocol traffic, these are
+                    Apache-style access logs. For all other traffic,
+                    this is connection and transfer logging.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -193,7 +199,8 @@
         <glossentry>
             <glossterm>cyberspace</glossterm>
             <glossdef>
-                <para>Refers to the Internet and all the information stored on it.</para>
+                <para>Refers to the Internet and all the information
+                    stored on it.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -225,7 +232,7 @@
         <glossentry>
             <glossterm>DNS</glossterm>
             <glossdef>
-               <para>Domain Name System. DNS is a system that
+                <para>Domain Name System. DNS is a system that
                     translates human readable computer host names or
                     domain names, such as, www.rackspace.com, into the
                     IP addresses that networking equipment needs for
@@ -234,12 +241,15 @@
                     servers that accept e-mail for a given domain. In
                     providing a worldwide keyword-based redirection
                     service, DNS is an essential component of
-                    contemporary Internet use. </para> 
+                    contemporary Internet use. </para>
             </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>DNS Record</glossterm>
-            <glossdef><para>A record that specifies information about a particular domain.</para></glossdef>
+            <glossdef>
+                <para>A record that specifies information about a
+                    particular domain.</para>
+            </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>domain</glossterm>
@@ -251,7 +261,7 @@
                     business. </para>
             </glossdef>
         </glossentry>
-       
+
         <glossentry>
             <glossterm>Domain Name System</glossterm>
             <glossdef>
@@ -261,11 +271,11 @@
         <glossentry>
             <glossterm>domain owner</glossterm>
             <glossdef>
-                <para>For Rackspace DNS, the account that creates the domain is the domain
-                    owner.</para>
+                <para>For Rackspace DNS, the account that creates the
+                    domain is the domain owner.</para>
             </glossdef>
         </glossentry>
-       
+
         <glossentry>
             <glossterm>duck</glossterm>
             <glossdef>
@@ -279,7 +289,8 @@
         <glossentry>
             <glossterm>email</glossterm>
             <glossdef>
-                <para>System for transferring messages from one computer to another over the Internet.</para>
+                <para>System for transferring messages from one
+                    computer to another over the Internet.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -295,17 +306,21 @@
         <glossentry>
             <glossterm>firewall</glossterm>
             <glossdef>
-                <para>System that prevents unauthorized access to a computer or a network. Firewalls control 
-                incoming and outgoing network traffic by analyzing each packet 
-                and determining whether it should be allowed through, based on a predetermined rule set.  Firewalls
-                can be hardware-based, software-based, or a combination of hardware and software.</para>
+                <para>System that prevents unauthorized access to a
+                    computer or a network. Firewalls control incoming
+                    and outgoing network traffic by analyzing each
+                    packet and determining whether it should be
+                    allowed through, based on a predetermined rule
+                    set. Firewalls can be hardware-based,
+                    software-based, or a combination of hardware and
+                    software.</para>
             </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>Flash</glossterm>
             <glossdef>
-                <para>Technology that is used for Internet animation, developed by
-                    Macromedia.</para>
+                <para>Technology that is used for Internet animation,
+                    developed by Macromedia.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -336,8 +351,9 @@
         <glossentry>
             <glossterm>gateway</glossterm>
             <glossdef>
-                <para>Hardware or software that connects two or more networks, converting data to the  
-                protocol understood by each network.  </para>
+                <para>Hardware or software that connects two or more
+                    networks, converting data to the protocol
+                    understood by each network. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -361,17 +377,19 @@
         <glossentry>
             <glossterm>hacker</glossterm>
             <glossdef>
-                <para>An intruder who attempts to enter a site for the purpose of causing
-                    intentional damage.</para>
+                <para>An intruder who attempts to enter a site for the
+                    purpose of causing intentional damage.</para>
             </glossdef>
         </glossentry>
         <glossentry>
-         <glossterm>health monitor</glossterm>
-        <glossdef>
-            <para>A feature of each load balancer that is used to determine
-                whether a back-end node is usable for processing a request. The load
-                balancing service supports two types of health monitors: passive and active. </para>
-        </glossdef>
+            <glossterm>health monitor</glossterm>
+            <glossdef>
+                <para>A feature of each load balancer that is used to
+                    determine whether a back-end node is usable for
+                    processing a request. The load balancing service
+                    supports two types of health monitors: passive and
+                    active. </para>
+            </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>homepage</glossterm>
@@ -383,8 +401,9 @@
         <glossentry>
             <glossterm>host</glossterm>
             <glossdef>
-                <para>A computer and/or network facility that stores data that is available to be
-                    accessed by other computers.</para>
+                <para>A computer and/or network facility that stores
+                    data that is available to be accessed by other
+                    computers.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -420,7 +439,7 @@
     <!-- ... -->
     <glossdiv>
         <title>I</title>
-       <glossentry>
+        <glossentry>
             <glossterm>image</glossterm>
             <glossdef>
                 <para>A collection of files for a specific operating
@@ -458,7 +477,7 @@
     <!-- ... -->
     <glossdiv>
         <title>J</title>
-   
+
         <glossentry>
             <glossterm>Java</glossterm>
             <glossdef>
@@ -622,16 +641,20 @@
                     if they are not confirmed or reverted. </para>
             </glossdef>
         </glossentry>
-        
-            <glossentry>
-                <glossterm>RESTful</glossterm>
-                <glossdef>
-                    <para>A kind of web service API that uses REST, or
-                    Representational State Transfer. REST is the style
-                    of architecture for hypermedia systems that is
-                    used for the World Wide web.</para>
-                </glossdef>
-            </glossentry>
+
+        <glossentry>
+            <glossterm>REST</glossterm>
+            <glossdef>
+                <para>Representational State Transfer. A style of
+                    architecture for hypermedia systems that is used
+                    for the World Wide web.</para>
+            </glossdef>
+            <glossterm>RESTful</glossterm>
+            <glossdef>
+                <para>A kind of web service API that uses
+                        <glossterm>REST</glossterm>.</para>
+            </glossdef>
+        </glossentry>
     </glossdiv>
     <!-- ... -->
     <glossdiv>
@@ -650,9 +673,10 @@
         <glossentry>
             <glossterm>session persistence</glossterm>
             <glossdef>
-                <para>Session persistence is a feature of the load balancing service. It attempts to
-                    force subsequent connections to a service to be redirected to the same node as long
-                    as it is online. </para>
+                <para>Session persistence is a feature of the load
+                    balancing service. It attempts to force subsequent
+                    connections to a service to be redirected to the
+                    same node as long as it is online. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -683,7 +707,7 @@
                     be a member of one shared IP group. </para>
             </glossdef>
         </glossentry>
-        
+
         <glossentry>
             <glossterm>social networking</glossterm>
             <glossdef>
@@ -702,9 +726,9 @@
                     delegate domains. Subdomains can have subdomains.
                     Third, fourth, and deeper levels of nesting are
                     possible. </para>
-        </glossdef>
-        </glossentry>   
-        
+            </glossdef>
+        </glossentry>
+
     </glossdiv>
     <!-- ... -->
     <glossdiv>
@@ -736,14 +760,16 @@
                     the load balancer for use by clients connecting to
                     a service that is load balanced. Incoming
                     connections are distributed to back-end nodes
-                    based on the configuration of the load balancer. </para>
+                    based on the configuration of the load balancer.
+                </para>
             </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>virus</glossterm>
             <glossdef>
-                <para>Harmful piece of computer programming that interferes with normal computer and
-                    internet operations.</para>
+                <para>Harmful piece of computer programming that
+                    interferes with normal computer and internet
+                    operations.</para>
             </glossdef>
         </glossentry>
         <glossentry>
