@@ -67,8 +67,8 @@
                 <para>To make API calls, you authenticate by issuing a
                     request to the Rackspace Cloud Identity Service.
                     In response to valid credentials, the request
-                    returns an <glossterm>authentication
-                        token</glossterm> and the Cloud services
+                    returns an authentication
+                        token and the Cloud services
                     catalog with the endpoints to request Cloud
                     services. Each time that you make an API call, you
                     include the endpoint for the Cloud service that
@@ -84,7 +84,7 @@
                     call, you include this authentication token.
                     Because the authentication token expires after 24
                     hours, you must generate a new token once a day.
-                    See <glossterm>authentication</glossterm>.</para>
+                    See authentication.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -205,7 +205,7 @@
                     Rackspace Cloud Identity Service. Each time that
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
-                        <glossterm>authentication</glossterm>.</para></glossdef></glossentry> <glossentry>
+                        authentication.</para></glossdef></glossentry> <glossentry>
             <glossterm>cloudware</glossterm>
             <glossdef>
                 <para>Software that exists only on the Internet. No
@@ -345,7 +345,7 @@
                     Rackspace Cloud Identity Service. Each time that
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
-                        <glossterm>authentication</glossterm>.</para>
+                        authentication.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -713,8 +713,7 @@
         <glossentry>
             <glossterm>RESTful</glossterm>
             <glossdef>
-                <para>A kind of web service API that uses
-                        <glossterm>REST</glossterm>.</para>
+                <para>A kind of web service API that uses REST.</para>
             </glossdef>
         </glossentry>
     </glossdiv>
