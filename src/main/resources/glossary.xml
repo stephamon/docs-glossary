@@ -241,9 +241,7 @@
             <glossdef>
                 <para>A command line tool for transferring data with
                     URL syntax. The curl command line tool supports
-                    many protocols, including HTTP. See <link
-                        linkend="http://curl.haxx.se/"
-                        >http://curl.haxx.se/</link>.</para>
+                    many protocols, including HTTP. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -740,8 +738,10 @@
         </glossentry>
         <glossentry>
             <glossterm>service</glossterm>
-            <glossdef>For Cloud Servers, a node on a server instance
-                that runs Nova code.</glossdef>
+            <glossdef>
+                <para>For Cloud Servers, a node on a server instance
+                    that runs Nova code.</para>
+            </glossdef>
         </glossentry>
         <glossentry>
             <glossterm>session persistence</glossterm>
