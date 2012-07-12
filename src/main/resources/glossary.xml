@@ -67,12 +67,12 @@
                 <para>To make API calls, you authenticate by issuing a
                     request to the Rackspace Cloud Identity Service.
                     In response to valid credentials, the request
-                    returns an authentication
-                        token and the Cloud services
-                    catalog with the endpoints to request Cloud
-                    services. Each time that you make an API call, you
-                    include the endpoint for the Cloud service that
-                    you want to access and the authentication token. </para>
+                    returns an authentication token and the Cloud
+                    services catalog with the endpoints to request
+                    Cloud services. Each time that you make an API
+                    call, you include the endpoint for the Cloud
+                    service that you want to access and the
+                    authentication token. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -196,7 +196,9 @@
                     resources delivered over the Internet.</para>
             </glossdef>
         </glossentry>
-       <glossentry><glossterm>Cloud services catalog</glossterm><glossdef>
+        <glossentry>
+            <glossterm>Cloud services catalog</glossterm>
+            <glossdef>
                 <para>A catalog of names and endpoints for Cloud
                     services. The services that are available to you
                     are based on the terms of your Cloud account
@@ -205,7 +207,10 @@
                     Rackspace Cloud Identity Service. Each time that
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
-                        authentication.</para></glossdef></glossentry> <glossentry>
+                    authentication.</para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
             <glossterm>cloudware</glossterm>
             <glossdef>
                 <para>Software that exists only on the Internet. No
@@ -236,8 +241,9 @@
             <glossdef>
                 <para>A command line tool for transferring data with
                     URL syntax. The curl command line tool supports
-                    many protocols, including HTTP. See
-                    <link linkend="http://curl.haxx.se/">http://curl.haxx.se/</link>.</para>
+                    many protocols, including HTTP. See <link
+                        linkend="http://curl.haxx.se/"
+                        >http://curl.haxx.se/</link>.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -345,7 +351,7 @@
                     Rackspace Cloud Identity Service. Each time that
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
-                        authentication.</para>
+                    authentication.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -662,7 +668,8 @@
                     reboot of a server. A soft reboot signals the
                     operating system to restart, which allows for a
                     graceful shutdown of all processes. A hard reboot
-                    is the equivalent of power cycling the server. </para>
+                    is the equivalent of power cycling the server.
+                </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -730,6 +737,11 @@
                     specify a name, flavor reference, and image
                     reference. </para>
             </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>service</glossterm>
+            <glossdef>For Cloud Servers, a node on a server instance
+                that runs Nova code.</glossdef>
         </glossentry>
         <glossentry>
             <glossterm>session persistence</glossterm>
