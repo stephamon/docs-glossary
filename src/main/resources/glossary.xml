@@ -385,10 +385,9 @@
         <glossentry>
             <glossterm>flavor</glossterm>
             <glossdef>
-                <para>A hardware configuration for a server. Each
-                    flavor represents a unique combination of disk
-                    space, memory capacity, and priority for CPU
-                    time.</para>
+                <para>>A resource configuration for a server. Each
+                    flavor represents a unique combination of RAM,
+                    CPU, disk space, and network bandwidth.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -503,12 +502,12 @@
             <glossterm>image</glossterm>
             <glossdef>
                 <para>A collection of files for a specific operating
-                    system (OS) image that you use to create or
-                    rebuild a server. Rackspace provides pre-built
-                    images. You can also create custom images from
-                    Rackspace Cloud servers that you have launched.
-                    Use these custom images for backup or as "gold"
-                    server images. </para>
+                    system (OS) that you use to create or rebuild a
+                    server. Rackspace provides pre-built images. You
+                    can also create custom images from servers that
+                    you have launched. Custom images can be used for
+                    data backups or as "gold" images for additional
+                    servers.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -663,10 +662,10 @@
             <glossterm>reboot</glossterm>
             <glossdef>
                 <para>This action performs either a soft or hard
-                    reboot of a server. A soft reboot signals the
-                    operating system to restart, which allows for a
-                    graceful shutdown of all processes. A hard reboot
-                    is the equivalent of power cycling the server.
+                    reboot of a server. A soft reboot is a graceful
+                    shutdown and restart of your server's operating
+                    system. A hard reboot power cycles your server
+                    which performs an immediate shutdown and restart.
                 </para>
             </glossdef>
         </glossentry>
@@ -699,11 +698,13 @@
                 <para>This action converts an existing server to a
                     different flavor, which scales the server up or
                     down. The original server is saved for a period of
-                    time to allow rollback if a problem occurs. When
-                    you test and explicitly confirm a resize, the
-                    original server is removed. All resizes are
-                    automatically confirmed after 24 hours if you do
-                    not confirm or revert them. </para>
+                    time to allow rollback if a problem occurs. You
+                    may confirm or revert a resize. Confirmed resizes
+                    will remove the original server and reverted
+                    resizes will restore the original server. All
+                    resizes are automatically confirmed after 24 hours
+                    if they are not explicitly confirmed or reverted.
+                </para>
             </glossdef>
         </glossentry>
 
@@ -730,19 +731,19 @@
             <glossdef>
                 <para>A computer that provides explicit services to
                     the client software running on that system. A
-                    server is a virtual machine instance in the Cloud
-                    Servers system. To create a server, you must
+                    server is a virtual machine (VM) instance in the
+                    Cloud Servers system. To create a server, you must
                     specify a name, flavor reference, and image
                     reference. </para>
             </glossdef>
         </glossentry>
-        <glossentry>
+        <!-- <glossentry>
             <glossterm>service</glossterm>
             <glossdef>
                 <para>For Cloud Servers, a node on a server instance
                     that runs Nova code.</para>
             </glossdef>
-        </glossentry>
+        </glossentry> -->
         <glossentry>
             <glossterm>session persistence</glossterm>
             <glossdef>
