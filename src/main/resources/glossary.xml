@@ -386,8 +386,8 @@
             <glossterm>flavor</glossterm>
             <glossdef>
                 <para>>A resource configuration for a server. Each
-                    flavor represents a unique combination of RAM,
-                    CPU, disk space, and network bandwidth.</para>
+                    flavor is a unique combination of disk, memory,
+                    vCPUs, and network bandwidth.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -501,13 +501,13 @@
         <glossentry>
             <glossterm>image</glossterm>
             <glossdef>
-                <para>A collection of files for a specific operating
-                    system (OS) that you use to create or rebuild a
-                    server. Rackspace provides pre-built images. You
-                    can also create custom images from servers that
-                    you have launched. Custom images can be used for
-                    data backups or as "gold" images for additional
-                    servers.</para>
+                <para>A collection of files for a specific
+                    operating system (OS) that you use to create or
+                    rebuild a server. Rackspace provides pre-built
+                    images. You can also create custom images from
+                    servers that you have launched. Custom images can
+                    be used for data backups or as "gold" images for
+                    additional servers. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -664,7 +664,7 @@
                 <para>This action performs either a soft or hard
                     reboot of a server. A soft reboot is a graceful
                     shutdown and restart of your server's operating
-                    system. A hard reboot power cycles your server
+                    system. A hard reboot power cycles your server,
                     which performs an immediate shutdown and restart.
                 </para>
             </glossdef>
@@ -699,12 +699,11 @@
                     different flavor, which scales the server up or
                     down. The original server is saved for a period of
                     time to allow rollback if a problem occurs. You
-                    may confirm or revert a resize. Confirmed resizes
-                    will remove the original server and reverted
-                    resizes will restore the original server. All
-                    resizes are automatically confirmed after 24 hours
-                    if they are not explicitly confirmed or reverted.
-                </para>
+                    can confirm or revert a resize. A confirmed resize
+                    removes the original server. A reverted resize
+                    restores the original server. All resizes are
+                    automatically confirmed after 24 hours if you do
+                    not explicitly confirm or revert them. </para>
             </glossdef>
         </glossentry>
 
