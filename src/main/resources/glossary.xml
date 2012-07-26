@@ -196,20 +196,7 @@
                     resources delivered over the Internet.</para>
             </glossdef>
         </glossentry>
-        <glossentry>
-            <glossterm>Cloud services catalog</glossterm>
-            <glossdef>
-                <para>A catalog of names and endpoints for Cloud
-                    services. The services that are available to you
-                    are based on the terms of your Cloud account
-                    contract. The Cloud services catalog is returned
-                    in response to valid credentials from the
-                    Rackspace Cloud Identity Service. Each time that
-                    you make an API call, you include the endpoint for
-                    the Cloud service that you want to access. See
-                    authentication.</para>
-            </glossdef>
-        </glossentry>
+
         <glossentry>
             <glossterm>cloudware</glossterm>
             <glossdef>
@@ -385,7 +372,7 @@
         <glossentry>
             <glossterm>flavor</glossterm>
             <glossdef>
-                <para>>A resource configuration for a server. Each
+                <para>A resource configuration for a server. Each
                     flavor is a unique combination of disk, memory,
                     vCPUs, and network bandwidth.</para>
             </glossdef>
@@ -501,13 +488,13 @@
         <glossentry>
             <glossterm>image</glossterm>
             <glossdef>
-                <para>A collection of files for a specific
-                    operating system (OS) that you use to create or
-                    rebuild a server. Rackspace provides pre-built
-                    images. You can also create custom images from
-                    servers that you have launched. Custom images can
-                    be used for data backups or as "gold" images for
-                    additional servers. </para>
+                <para>A collection of files for a specific operating
+                    system (OS) that you use to create or rebuild a
+                    server. Rackspace provides pre-built images. You
+                    can also create custom images from servers that
+                    you have launched. Custom images can be used for
+                    data backups or as "gold" images for additional
+                    servers. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -731,8 +718,8 @@
                 <para>A computer that provides explicit services to
                     the client software running on that system. A
                     server is a virtual machine (VM) instance in the
-                    Cloud Servers system. To create a server, you must
-                    specify a name, flavor reference, and image
+                    Cloud Servers environment. To create a server, you
+                    must specify a name, flavor reference, and image
                     reference. </para>
             </glossdef>
         </glossentry>
@@ -743,6 +730,20 @@
                     that runs Nova code.</para>
             </glossdef>
         </glossentry> -->
+        <glossentry>
+            <glossterm>service catalog</glossterm>
+            <glossdef>
+                <para>A catalog of names and endpoints for Cloud
+                    services. The services that are available to you
+                    are based on the terms of your Cloud account
+                    contract. The Cloud services catalog is returned
+                    in response to valid credentials from the
+                    Rackspace Cloud Identity Service. Each time that
+                    you make an API call, you include the endpoint for
+                    the Cloud service that you want to access. See
+                    authentication.</para>
+            </glossdef>
+        </glossentry>
         <glossentry>
             <glossterm>session persistence</glossterm>
             <glossdef>
