@@ -731,11 +731,6 @@
             </glossdef>
         </glossentry> -->
         <glossentry>
-            <glossterm>service</glossterm>
-            <glossdef>
-                <para>For Cloud Servers, a node on a server that runs
-                    API v2 code.</para>
-            </glossdef>
             <glossterm>service catalog</glossterm>
             <glossdef>
                 <para>A catalog of names and endpoints for Cloud
