@@ -756,11 +756,10 @@
         <glossentry>
             <glossterm>ServiceNet</glossterm>
             <glossdef>
-                <para>The private ServiceNet network is an internal
-                    only, multi-tenant network connection within each
-                    Rackspace datacenter. ServiceNet IPs are not
-                    accessible from the public Internet and are local
-                    to each datacenter. You can
+                <para>An internal only, multi-tenant network
+                    connection within each Rackspace datacenter.
+                    ServiceNet IPs are not accessible from the public
+                    Internet and are local to each datacenter. You can
                     configure your account resources to use a
                     ServiceNet IP address so that traffic over the
                     internal network is not billed.</para>
