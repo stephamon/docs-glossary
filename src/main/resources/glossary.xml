@@ -194,7 +194,8 @@
             <glossdef>
                 <para>Classless Inter-Domain Routing (CIDR) is a
                     method for allocating IP addresses and routing
-                    Internet Protocol packets. Used with Cloud Networks. </para>
+                    Internet Protocol packets. Used with Cloud
+                    Networks. </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -750,6 +751,19 @@
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
                     authentication.</para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>ServiceNet</glossterm>
+            <glossdef>
+                <para>The private ServiceNet network is an internal
+                    only, multi-tenant network connection within each
+                    Rackspace datacenter. ServiceNet IPs are not
+                    accessible from the public Internet and are local
+                    to each datacenter. You can
+                    configure your account resources to use a
+                    ServiceNet IP address so that traffic over the
+                    internal network is not billed.</para>
             </glossdef>
         </glossentry>
         <glossentry>
