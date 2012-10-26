@@ -757,12 +757,12 @@
             <glossterm>ServiceNet</glossterm>
             <glossdef>
                 <para>An internal only, multi-tenant network
-                    connection within each Rackspace datacenter.
+                    connection within each Rackspace data center.
                     ServiceNet provides access to Rackspace services
                     such as Cloud Files, Cloud Databases, Cloud
                     Backup, and to certain packages and patches.
                     ServiceNet IPs are not accessible from the
-                    Internet and are local to each datacenter. You can
+                    Internet and are local to each data center. You can
                     configure your account resources to use a
                     ServiceNet IP address so that traffic over the
                     internal network is not billed.</para>
