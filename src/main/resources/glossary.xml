@@ -192,10 +192,10 @@
         <glossentry>
             <glossterm>CIDR</glossterm>
             <glossdef>
-                <para>Classless Inter-Domain Routing (CIDR) is a
-                    method for allocating IP addresses and routing
-                    Internet Protocol packets. Used with Cloud
-                    Networks. </para>
+                <para>Classless Inter-Domain Routing (CIDR). A method
+                    for allocating IP addresses and routing Internet
+                    Protocol packets. Used with Cloud Networks.
+                </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -518,6 +518,19 @@
             </glossdef>
         </glossentry>
         <glossentry>
+            <glossterm>isolated network</glossterm>
+            <glossdef>
+                <para>A virtual Layer 2 network that your create
+                    through Cloud Networks and that you can attach to
+                    a new Next Generation Cloud Server. Use an
+                    isolated network to keep your server separate from
+                    the Rackspace network, the Internet, or both. When
+                    you create a isolated network, it is associated
+                    with your tenant ID.</para>
+            </glossdef>
+        </glossentry>
+
+        <glossentry>
             <glossterm>ISP</glossterm>
             <glossdef>
                 <para>Internet Service Provider. A provider of
@@ -624,9 +637,14 @@
     <glossdiv>
         <title>P</title>
         <glossentry>
-            <glossterm/>
+            <glossterm>PublicNet</glossterm>
             <glossdef>
-                <para/>
+                <para>Provides access to the Internet, Rackspace
+                    services such as Cloud Monitoring, Managed Cloud
+                    Support, RackConnect, Cloud Backup, and certain
+                    operating system updates. When you list networks
+                    through Cloud Networks, PublicNet is labeled
+                        <literal>public</literal>. </para>
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -758,14 +776,16 @@
             <glossdef>
                 <para>An internal only, multi-tenant network
                     connection within each Rackspace data center.
-                    ServiceNet provides access to Rackspace services
-                    such as Cloud Files, Cloud Databases, Cloud
-                    Backup, and to certain packages and patches.
-                    ServiceNet IPs are not accessible from the
-                    Internet and are local to each data center. You can
-                    configure your account resources to use a
-                    ServiceNet IP address so that traffic over the
-                    internal network is not billed.</para>
+                    Provides access to Rackspace services, such as
+                    Cloud Files, Cloud Databases, Cloud Backup, and to
+                    certain packages and patches. ServiceNet IPs are
+                    not accessible from the Internet and are local to
+                    each data center. You can configure your account
+                    resources to use a ServiceNet IP address so that
+                    traffic over the internal network is not billed.
+                    When you list networks through Cloud Networks,
+                    ServiceNet is labeled as
+                        <literal>private</literal>.</para>
             </glossdef>
         </glossentry>
         <glossentry>
