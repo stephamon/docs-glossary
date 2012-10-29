@@ -774,18 +774,13 @@
         <glossentry>
             <glossterm>ServiceNet</glossterm>
             <glossdef>
-                <para>An internal only, multi-tenant network
-                    connection within each Rackspace data center.
-                    Provides access to Rackspace services, such as
-                    Cloud Files, Cloud Databases, Cloud Backup, and to
-                    certain packages and patches. ServiceNet IPs are
-                    not accessible from the Internet and are local to
-                    each data center. You can configure your account
-                    resources to use a ServiceNet IP address so that
-                    traffic over the internal network is not billed.
-                    When you list networks through Cloud Networks,
-                    ServiceNet is labeled as
-                        <literal>private</literal>.</para>
+                <para>Provides access to Rackspace services such as
+                    Cloud Files, Cloud Databases, and Cloud Backup,
+                    and to certain packages and patches through an
+                    internal only, multi-tenant network connection
+                    within each Rackspace data center. When you list
+                    networks through Cloud Networks, ServiceNet is
+                    labeled as <literal>private</literal>.</para>
             </glossdef>
         </glossentry>
         <glossentry>
