@@ -639,12 +639,9 @@
         <glossentry>
             <glossterm>PublicNet</glossterm>
             <glossdef>
-                <para>Provides access to the Internet, Rackspace
-                    services such as Cloud Monitoring, Managed Cloud
-                    Support, RackConnect, Cloud Backup, and certain
-                    operating system updates. When you list networks
-                    through Cloud Networks, PublicNet is labeled
-                        <literal>public</literal>. </para>
+                <para>Provides access to the Internet, Rackspace services such as Cloud Monitoring, Managed Cloud Service
+                    Level, RackConnect, Cloud Backup, and certain operating system updates. When you list networks through
+                    Cloud Networks, PublicNet is labeled <literal>public</literal>. </para>
             </glossdef>
         </glossentry>
     </glossdiv>
