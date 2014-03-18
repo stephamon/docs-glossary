@@ -709,7 +709,7 @@
     <glossdiv>
         <title>S</title>
         <glossentry>
-            <glossterm><emphasis role="bold">Schema</emphasis></glossterm>
+            <glossterm>Schema</glossterm>
             <glossdef>
                 <para>Some Rackspace APIs supply json documents describing the JSON-encoded data structures that represent
                     domain objects, so that a client knows exactly what to expect in an API response.</para>
