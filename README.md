@@ -8,9 +8,9 @@ and edits via pull requests.
  
 ----
 
-Every [API DevGuide]: http://docs.rackspace.com/ we publish includes some introduction of basic vocabulary. We are working toward centrally managing our collection of terms and definitions in this docs-glossary repo. Today, some documents pull definitions from this repo and others maintain definitions locally; that's work in progress.
+Every [API DevGuide](http://docs.rackspace.com/) we publish includes some introduction of basic vocabulary. We are working toward centrally managing our collection of terms and definitions in this docs-glossary repo. Today, some documents pull definitions from this repo and others maintain definitions locally; that's work in progress.
 
-These are links to the glossaries published within [API DevGuides]: http://docs.rackspace.com/ :
+These are links to the glossaries published within [API DevGuides](http://docs.rackspace.com/) :
 
 * [Auto Scale]: http://docs.rackspace.com/cas/api/v1.0/autoscale-devguide/content/Glossary.html
 * [Cloud Backup]: http://docs.rackspace.com/rcbu/api/v1.0/rcbu-devguide/content/Concepts.html
