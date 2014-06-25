@@ -96,9 +96,14 @@
             </glossdef>
         </glossentry>
         <glossentry>
-            <glossterm/>
+            <glossterm>authorization</glossterm>
             <glossdef>
-                <para/>
+                <para>Process that determines the capabilities available
+                    to an authenticated user, system or process.
+                    Authorization ensures that clients have appropriate
+                    access to information and information processing
+                    capabilities based on roles and policy-based access
+                    control defined by the organization.</para>
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -237,6 +242,36 @@
             </glossdef>
         </glossentry>
         <glossentry>
+            <glossterm>credentials</glossterm>
+            <glossdef>
+                <para>Credentials are data that belong to and identify a specific user. Because
+                    credentials are assumed to be known by only one user, users who present valid
+                    credentials are assumed to have proven that they are who they say they are. Examples
+                    of credentials include the following:
+                    <itemizedlist spacing="compact">
+                        <listitem>
+                            <para>a matching username and password</para>
+                        </listitem>
+                        <listitem>
+                            <para>a matching username and API key</para>
+                        </listitem>
+                        <listitem>
+                            <para>a unique token</para>
+                        </listitem>
+                        <listitem>
+                            <para>secret question and answer</para>
+                        </listitem>
+                        <listitem>
+                            <para>digital certificate</para>
+                        </listitem>
+                        <listitem>
+                            <para>fingerprint</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
             <glossterm>cURL command</glossterm>
             <glossdef>
                 <para>A command line tool for transferring data with
@@ -350,6 +385,18 @@
                     you make an API call, you include the endpoint for
                     the Cloud service that you want to access. See
                     authentication.</para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>endpoint template</glossterm>
+            <glossdef>
+                <para>Endpoint templates provide Cloud Service providers with a method to manage API
+                    service endpoints that apply to many or all tenants without having to add each
+                    endpoint on each tenant manually. For example, a Service developer can define a
+                    global endpoint template that is automatically included in the Service catalog
+                    for all tenants authorized to use that service. The endpoint template also
+                    specifies the URLs for the internal, administrative, and public endpoints that
+                    provide access to the service.</para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -816,6 +863,28 @@
                 <para>A kind of web service API that uses REST.</para>
             </glossdef>
         </glossentry>
+        <glossentry>
+            <glossterm>role</glossterm>
+            <glossdef>
+                <para>A role is a common security construct for assigning a specific set of access
+                    rights and privileges to a user or group of users. Service administrators can
+                    create named roles, configure the rights and privileges for each role, and
+                    manage the role without updating individual user or group accounts assigned to
+                    the role.
+                </para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>Role-based access control (RBAC)</glossterm>
+            <glossdef>
+                <para>RBAC is method to restrict service access to only authorized users. RBAC
+                    allows customers to specify who has access to resources and capabilities within
+                    their cloud deployment, based on roles defined by Rackspace. For example, an
+                    administrator can use RBAC to manage access to Cloud Servers as well as the
+                    permissions to complete operations such as adding and deleting servers after
+                    access has been granted.</para>
+            </glossdef>
+        </glossentry>
     </glossdiv>
     <!-- ... -->
     <glossdiv>
@@ -837,6 +906,16 @@
                     must specify a name, flavor reference, and image
                     reference. </para>
             </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>Service</glossterm>
+                <glossdef>
+                    <para>A service is a logical name for the internal and external capabilities
+                    provided on a Cloud platform or product component. A service provides one or
+                    more endpoints through which users can
+                    access resources and perform operations. Examples of Cloud services include 
+                    Identity, Servers, Load Balancers, and Files.</para>
+               </glossdef>
         </glossentry>
         <!-- <glossentry>
             <glossterm>service</glossterm>
@@ -935,9 +1014,22 @@
     <glossdiv>
         <title>T</title>
         <glossentry>
-            <glossterm/>
+            <glossterm>Tenant</glossterm>
             <glossdef>
-                <para/>
+                <para>A tenant is a container that can be used to group or isolate resources and
+                    identity objects. Depending on the service provider, a tenant can map to a
+                    customer, account, organization, or project.</para>
+                <para>In a cloud environment, tenants allow service providers to organize computing and
+                    storage resources without assigning them to user accounts directly. For example,
+                    Virtual machines (Cloud Servers) and containers (Cloud Files) are assigned to
+                    tenants, not to users directly.</para>
+            </glossdef>
+        </glossentry>
+        <glossentry>
+            <glossterm>token</glossterm>
+            <glossdef>
+                <para>A token is a temporary, encrypted form of identification that is passed to
+                    services as a proof of identity.</para>
             </glossdef>
         </glossentry>
     </glossdiv>
@@ -1005,9 +1097,16 @@
             </glossdef>
         </glossentry>
         <glossentry>
-            <glossterm/>
+            <glossterm>User</glossterm>
             <glossdef>
-                <para/>
+                <para>A user is a digital representation of a person, system, or service that uses
+                    cloud services. Users have credentials and can be assigned tokens. They can
+                    present this information to the Identity service or other cloud service to confirm
+                    identity and verify permission to access the requested system resources.</para>
+                <para>
+                    Users can also be assigned to a tenant or region so that they inherit a set of 
+                    access rights and privileges automatically, based on the tenant or region configuration.
+                </para>
             </glossdef>
         </glossentry>
     </glossdiv>
