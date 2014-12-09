@@ -78,11 +78,15 @@
         <glossentry>
             <glossterm>authentication token</glossterm>
             <glossdef>
-                <para>An authentication token is an encrypted string returned by the Identity
-                    service in response to an authentication request submitted with valid
-                    credentials. The token stores information about the services and operations
-                    available to the authenticated user and provides a secure way to transmit
-                    authentication information when submitting API requests. </para>
+                <para>An authentication token is an encrypted string
+                    returned by the Identity service in response to an
+                    authentication request submitted with valid
+                    credentials. The token 
+                    stores information about the services and
+                    operations available to the authenticated user and provides 
+                    a secure way to transmit authentication information when 
+                    submtting API requests. 
+                </para>
             </glossdef>
         </glossentry>
         <glossentry>
@@ -216,10 +220,10 @@
                     known by only one user, users who present valid credentials are assumed to have proven that they are who
                     they say they are. Examples of credentials include the following: <itemizedlist spacing="compact">
                         <listitem>
-                            <para>a matching user name and password</para>
+                            <para>a matching username and password</para>
                         </listitem>
                         <listitem>
-                            <para>a matching user name and API key</para>
+                            <para>a matching username and API key</para>
                         </listitem>
                         <listitem>
                             <para>a unique token</para>
@@ -523,11 +527,9 @@
         <glossentry>
             <glossterm>Identity assertion</glossterm>
                 <glossdef>
-                    <para>Identity assertion is a method for expressing the identity of the sender
-                    (for example, user name) in a Simple Object Access Protocol (SOAP) message.
-                    Identity assertions provide a mechanism for exchanging authentication and
-                    authorization between an Identity provider and a service provider to support
-                    federated identity management.</para>
+                    <para>Identity assertion is a method for expressing the identity of the sender (for example, user name) in a 
+                    Simple Object Access Protocol (SOAP) message. Identity assertions provide a mechanism for exchanging authenticcation and authorization between 
+                    an Identity provider and a service provider to support federated identity management.</para>
                 </glossdef>
         </glossentry>
         <glossentry>
